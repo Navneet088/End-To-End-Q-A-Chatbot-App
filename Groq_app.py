@@ -9,7 +9,7 @@ load_dotenv()
 
 from langchain_groq import ChatGroq
 #groq_api_key = os.getenv("GROQ_API_KEY")
-llm=ChatGroq(model="llama-3.1-8b-instant")
+#llm=ChatGroq(model="llama-3.1-8b-instant")
 
 
 #langchain tracking settings
@@ -55,3 +55,4 @@ if user_input:
         st.write(f"Assistant: {response}")
 else:
       st.write("Please enter a question to get started!")
+
